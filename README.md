@@ -4,8 +4,10 @@ xf86-networktablet
 
 X.org/XF86 input driver: virtual tablet (controlled by network)
 
-*Caution: This project is a proof-of-concept yet. Code quality is not
-mature, there are no security features etc.*
+*This project has been replaced by the uinput driver of GfxTablet.
+Please see here:*
+
+http://rfc2822.github.com/GfxTablet/
 
 
 What does it do?
