@@ -10,4 +10,5 @@ clean :
 	rm -r  .libs  *.la *.lo *.o
 
 install :
-	libtool --mode=install install -c networktablet_drv.la '/usr/lib64/xorg/modules/input'
+	install -m755 -d $(DESTDIR)/usr/lib64/xorg/modules/input
+	libtool --mode=install install -c networktablet_drv.la "$(DESTDIR)/usr/lib64/xorg/modules/input"
